@@ -1,7 +1,8 @@
 ---
 title: 2020-5-13-AI-Reversi
 date: 2020-05-13 17:46:21
-tags: - AI 
+tags: AI 
+iframe: "https://www.wangjunwei.top/2020/05/13/2020-05-13-AI-Reversi/"
 author: "Yinze"
 header-img: "reversi.jpeg"
 ---
@@ -14,7 +15,7 @@ header-img: "reversi.jpeg"
 
 ##### 1.1 MCTS
 
-​	![MCTS](C:\Users\Yinze\Desktop\MCTS_(English).png)
+​	![MCTS](MCTS.png)
 
  * **选择**(Selection)
 
@@ -35,14 +36,9 @@ header-img: "reversi.jpeg"
 ##### 1.2  UCT的选择方法
 
 ​	每个子节点得分：
-$$
-\text {score}=x_{\text {child}}+C \cdot \sqrt{\frac{\log \left(N_{\text {parent}}\right)}{N_{\text {child}}}}
-$$
+    ![](sqrt.JPG)
 ​	x 是节点的当前胜率估计;N 是节点的访问次数。C 是一个常数。C 越大就越偏向于广度搜索，C 越小就越偏向于深度搜索。注意对于原始的 UCT 有一个理论最优的 
-$$
-C =\sqrt2 = 1.414
-$$
-​	
+    ![](122.JPG)
 
 #### 2. 具体实现
 
@@ -250,11 +246,6 @@ class MCTS:
  * 本来想再写一个α-β剪枝来博弈一下,但是时间来不及了
 
  * 和RandomPlayer的博弈来看, 偶尔会输,基本都是获胜结局,记录如下:
-
-   | 次数(times)             |  AI  | opponent |
-   | :---------------------- | :--: | :------: |
-   | AIPlayer   me           |  11  |    0     |
-   | AIPlayer   AIPlayer     |  35  |    32    |
-   | AIPlayer   RandomPlayer |  58  |    9     |
+    ![](res.JPG)
 
 * 能看到自己写的AI打败自己真实太有成就感了(fulfillment)!
