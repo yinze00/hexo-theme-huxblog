@@ -3,7 +3,7 @@ title: AI-CNN-Image-Classfier
 date: 2020-05-13 17:29:53
 tags: AI
 header-img: "AI.jpg"
-
+author: "yinze"
 ---
 >
 
