@@ -1,5 +1,6 @@
 ---
-title: 2020-5-13-AI-Reversi
+title: AI-Reversi based on MCTS
+subtitle: 基于蒙特卡洛树搜索(MCTS)的黑白棋AI
 date: 2020-05-13 17:46:21
 tags: AI 
 iframe: "https://www.wangjunwei.top/2020/05/13/2020-05-13-AI-Reversi/"

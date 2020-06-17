@@ -1,9 +1,10 @@
 ---
 title: AI-CNN-Image-Classfier
+subtitle: Keras卷积神经网络图片分类
 date: 2020-05-13 17:29:53
 tags: AI
 header-img: "AI.jpg"
-author: "yinze"
+author: "Yinze"
 ---
 >
 
@@ -150,7 +151,6 @@ author: "yinze"
 ##### 	4.1 调参
 
 * 5-CNN
-
 | Epoch |  Loss  | Acurracy |
 | :---: | :----: | :------: |
 |  20   |  1.41  |   0.42   |
@@ -158,6 +158,7 @@ author: "yinze"
 |  100  |  0.62  |   0.76   |
 |  200  |  0.48  |   0.83   |
 |  400  |  0.24  |   0.89   |
+|  500  | 0.1125 |  0.9651  |
 |  500  | 0.1125 |  0.9651  |
 
 ##### 	4.2 训练	![](C:\Users\Yinze\Desktop\1234.JPG)
