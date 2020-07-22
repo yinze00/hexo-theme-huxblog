@@ -146,6 +146,6 @@ theme: huxblog
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@www.wangjunwei.top:/var/repo/hexo.git
+  type: git 
+  repo: git@www.wangjunwei.top:/var/repo/hexo.git 
   branch: master
