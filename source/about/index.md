@@ -12,7 +12,6 @@ comments: true
 
   * 您正在浏览的是汪俊威的主页
   * 2017.08-2021-06 浙江大学
-  * 2020.07-2021-09 拼多多
 
 <p style="text-align:right;">
     —— <a href="http://www.zhihu.com/question/19687065">李书航 － 什么是「共产中文腔调」？ </a>
